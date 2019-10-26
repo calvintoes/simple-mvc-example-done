@@ -32,9 +32,9 @@ const dbURL = process.env.MONGODB_URI || 'mongodb://localhost/simpleMVCExample';
 // MongoDB functionality. These changes are 'opt in', so we will opt in
 // to them.
 const mongooseOptions = {
-  useNewUrlParser: true, 
+  useNewUrlParser: true,
   useUnifiedTopology: true,
-}
+};
 
 // call mongoose's connect function and pass in the url.
 // If there are any errors connecting, we will throw it and kill the server.
